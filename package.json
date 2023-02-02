@@ -1,6 +1,6 @@
 {
   "name": "setmore-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
@@ -14,7 +14,17 @@
   "scripts": {
     "test": "node ./test"
   },
-  "keywords": [],
+  "keywords": [
+    "setmore",
+    "setmore-sdk",
+    "setmore-api",
+    "api",
+    "sdk",
+    "nodejs",
+    "node",
+    "javascript",
+    "js"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
