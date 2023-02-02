@@ -1,3 +1,7 @@
 const Setmore = require('./lib/setmore');
+const { formatDateToSetmore } = require('./lib/utils/dateFormat');
 
-export default Setmore;
+module.exports = {
+  Setmore,
+  formatDateToSetmore,
+};
