@@ -80,10 +80,14 @@ setmore.services.getServicesWithCategories().then((services) => {
 
 ```javascript
 // Get Customer
-setmore.customers.getCustomer({
-  given_name: 'John',
-  email: 'john@example.com',
-});
+setmore.customers
+  .getCustomer({
+    given_name: 'John',
+    email: 'john@example.com',
+  })
+  .then((customer) => {
+    console.log(customer);
+  });
 
 // Create Customer
 setmore.customers
@@ -181,8 +185,8 @@ setmore.appointments
 
 ## Questions
 
-If you have any questions, please feel free to reach out to me by email or LinkedIn.   
-[Email](mailto:jimenezraul1981@gmail.com)   
+If you have any questions, please feel free to reach out to me by email or LinkedIn.  
+[Email](mailto:jimenezraul1981@gmail.com)  
 [LinkedIn](https://www.linkedin.com/in/raul-jimenez-778b2a196/)
 
 ## My Portfolio
